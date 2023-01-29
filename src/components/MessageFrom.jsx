@@ -1,7 +1,7 @@
 const MessageFrom = ()=>{
 return (
     <div>
-        MessageFrom
+        Lets Start
     </div>
 )
 }
