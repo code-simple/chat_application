@@ -1,6 +1,7 @@
 import TheirMessage from './TheirMessage'
 import MessageFrom from './MessageFrom'
 import MyMessage from './MyMessage'
+// Edits
 
 const ChatFeed = (props) => {
     const { chats, activeChat, userName, messages } = props;
@@ -28,7 +29,7 @@ const ChatFeed = (props) => {
             )
         })
     }
-
+    
     if (!chat) return 'Loading';
     return (
         <div className="chat-feed">
